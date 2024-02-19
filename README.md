@@ -6,7 +6,6 @@ Nothing much lmao
 - [X] Hello World
 - [ ] Understanding C++ Syntax 
     - [X] *include* keyword 
-        - Allows you to import header files in order to use their input/output operations.
 
 
 ## Resources Used for Leaning C++
@@ -32,3 +31,10 @@ Nothing much lmao
     - For references to VSCode/VSCodium variables go [here](https://code.visualstudio.com/docs/editor/variables-reference) (*will save you lots of time*)
 
 - I had to get a buildsystem (transforms source code into executables in larger scales) for my C++ files. So I'm currently studying [CMake](https://cmake.org/) in order to get the hang of it whilst also studying C++
+
+---
+## In C++
+
+### Beginning
+**What is <include>?**
+ - <include> is a keyword used for the program to use header files in which allow the program to use more input/output operations.
