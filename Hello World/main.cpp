@@ -1,4 +1,4 @@
-// Header file (file that ends in ".h") for basic input/output operations
+// <include> is a header file (file that ends in ".h" usually) that is used for basic input/output operations
 #include <iostream>
 
 /*
@@ -18,7 +18,7 @@ int main() {
     since we indicated that the line ended.
      */
     std::cout << "Hello World!" << std::endl;
-    std::cout << "What is up?" << '\n'; // Escape Characters also work
+    std::cout << "What is up?" << '\n'; // Escape Characters also work for cout
     std::cout << "I'm good, how about you?";
 
     
