@@ -38,4 +38,4 @@ Nothing much lmao
 ### Beginning
 - Defintions
     - `<include>`
-    :is a keyword used for the program to use header files in which allow the program to use more input/output operations.
+    : is a keyword used for refering to header files in source code in which it allows the program to use more input/output operations.
