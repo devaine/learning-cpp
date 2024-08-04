@@ -1,6 +1,8 @@
 ## Table of Contents
 * [(1.1) Structure of the Book](#1-1-Structure-of-the-Book)
-* [(1.1.1) Chapters Overview](#1-1-1-Chapter-Overview-Chap-1-15)
+* [(1.1.1) Chapters Overview](#111-chapter-overview-chap-1---15)
+* [The design, ideas, and principles of C++](#the-design-idea-and-principles-of-c)
+* [Advice for C++](#advice)
 
 ## 1.1 The Structure of the Book
 * Part 1: 
@@ -69,7 +71,7 @@
 
 
 
-## The design, idea, and principles of C++
+## The design, ideas, and principles of C++
 * C++ is based on providing direct mapping to operations and types in order to <ins>provide efficient memory use and low-level operations</ins>. As well as a flexible mechanism to provde use-defined types *with the same features* as built-in types.
 
 * The new approach of C++ is that it's a general-purpose programming language for *developing and using abstractions*
