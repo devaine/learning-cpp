@@ -1,5 +1,7 @@
 ## Table of Contents
 * [(1.1) Structure of the Book](#1-1-Structure-of-the-Book)
+
+
 ## 1.1 The Structure of the Book
 * Part 1: 
     * *Chapter 1:* Guide to the book and covers basic C++ background.
@@ -12,7 +14,7 @@
     * *Abstraction Mechanisms:* Chapters 16-29 describes abstraction and their use for Object-Oriented and Generic Programming
 
 * Part IV:
-    * *Chapters:* 30-44 provide an overview of the standard library and dicussion of compatibitlity issues.
+    * Chapters: 30-44 provide an overview of the standard library and dicussion of compatibitlity issues.
 
 
 ### 1.1.1 Chapter Overview (Chap. 1 - 15)
@@ -73,19 +75,19 @@
 * The new approach of C++ is that it's a general-purpose programming language for *developing and using abstractions*
 
 * The principle of C++ is that:
-    * *"You leave no room for a lower-level language below C++*, except for Assembly code, and if you manage to write on a lower-level language than C++, then it should be the **main** systems programming language of choice.
+    * *"You leave no room for a lower-level language below C++*, except for Assembly code, and if you manage to write on a lower-level language than C++, then it should be the **main** systems-programming language of choice.
 
 * C++ directly supports **four** programming styles:
     * Procedural Programming
-        - "Programming focused on processing and the design of suitable data structures"
+        - "Programming focused on <ins>processing and the design of suitable data structures</ins>"
     
     * Data Abstraction
-        - "Programming focused on the design of interfaces, hiding implementation details in general and representations in partiuclar"
+        - "Programming focused on the <ins>design of interfaces,</ins> hiding implementation details *in general* and representations *in partiuclar*"
     * Object-oritented Programming
-        * "Programming focused on the design, implementation, and use of class hierarchies. -- Class hierarchies provide a run-time polymorphism and encapsulation"
+        * "Programming focused on the <ins>design, implementation, and use of class hierarchies.</ins> -- Class hierarchies provide a <ins>run-time polymorphism and encapsulation</ins>"
     
     * Generic Programming
-        * "Programming focued on the design, implementation and use of general algorithms."
+        * "Programming focued on the <ins>design, implementation and use of general algorithms.</ins>"
 
 * C++ Programming (as well as other languages) express their ideals of programming well by:
     1. Representing ideas directly in code
@@ -106,17 +108,24 @@
     7. Use semantics to avoid copying large projects
     8. USe *unique_ptr* to reference objects of polymorphic type
     9. Use *shared_ptr* to reference shared objects without a single owner that is responsible for their destruction.
-    10. Use templated to maintain static type safety (eliminate casts) and avoid unnecessary use of class hierarchies.
+    10. Use templates to maintain static type safety (eliminate casts) and avoid unnecessary use of class hierarchies.
 
 
 ## Advice
 * Every chapter will have an "advice" section with some recommendations as a *"rough rules of thumb"*
+
 1. Represent ideas (concepts) directly in code, for example, as a ffunction, a class, or an enumeration
 2. Aim for your code to be efficient and clean
 3. Don't overabstract
 4. Represent relationships among ideas directly in code (E.g parameterizatoin or a class hierarchy)
 5. Focus on efficient and clean abstracctions, possibly represented as libaries
 6. Represent independent ideas *separately* in code (E.g avoid mutual dependencies among classes)
-7. C++ isn't just Object-Oriented nor for generic programming
+7. C++ isn't just Object-Oriented nor Generic Programming
 8. Prefer solutions that can be statically checked
 9. Make resources explicit (represent them as class obejcts)
+10. Express simple ideas simply
+11. Use libaries, especially the *standard libary,* rather than trying to build everything from scratch.
+12. Use a type-rich style of programming
+13. Low-level code is not necessarily efficient; don't avoid classes, templates, and standard-libarry components out of fear of performance problems
+14. If data has an invariant, encapsulate it
+
