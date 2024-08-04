@@ -1,6 +1,6 @@
 ## Table of Contents
 * [(1.1) Structure of the Book](#1-1-Structure-of-the-Book)
-
+* [(1.1.1) Chapters Overview](#1-1-1-Chapter-Overview-Chap-1-15)
 
 ## 1.1 The Structure of the Book
 * Part 1: 
