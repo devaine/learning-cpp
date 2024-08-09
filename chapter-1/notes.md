@@ -5,21 +5,18 @@
 * [Advice for C++](#advice)
 
 ## 1.1 The Structure of the Book
-* Part 1: 
+* Part I: Introduction 
     * *Chapter 1:* Guide to the book and covers basic C++ background.
-    * *Chapters 2-5:* Give a quick introduction to the C++ Languageand it's standard library.
+    * *Chapters 2-5:* Give a quick introduction to the C++ Language and it's standard library.
 
-* Part II:
-    * *Basic Facilities:* Chapters 6-15 describe C++'s built-in types and the basic uses for creating programs out of them.
+* Part II: Basic Facilities
+    * *Chapters 6-15* describe C++'s built-in types and the basic uses for creating programs out of them.
 
-* Part III:
-    * *Abstraction Mechanisms:* Chapters 16-29 describes abstraction and their use for Object-Oriented and Generic Programming
-
-* Part IV:
-    * Chapters: 30-44 provide an overview of the standard library and dicussion of compatibitlity issues.
+* Part III: Abstraction Mechanisms
+    * Chapters 16-29 describes abstraction and their use for Object-Oriented and Generic Programming
 
 
-### 1.1.1 Chapter Overview (Chap. 1 - 15)
+### 1.1.1 Chapter Overview (1 -> 15)
 * Chapter 1 provides:
     * an overview of the book
     * hints on how to use it
@@ -72,45 +69,25 @@
 
 
 ## The design, ideas, and principles of C++
-* C++ is based on providing direct mapping to operations and types in order to <ins>provide efficient memory use and low-level operations</ins>. As well as a flexible mechanism to provde use-defined types *with the same features* as built-in types.
+* C++ is based on providing direct mapping to operations and types in order to <ins>provide efficient memory use and low-level operations</ins>. As well as a flexible mechanism to create user-defined types *with the same properties* as built-in types.
 
-* The new approach of C++ is that it's a general-purpose programming language for *developing and using abstractions*
+* The new approach of C++ is that it's a general-purpose programming language for __the development and use of abstractions__. 
 
 * The principle of C++ is that:
-    * *"You leave no room for a lower-level language below C++*, except for Assembly code, and if you manage to write on a lower-level language than C++, then it should be the **main** systems-programming language of choice.
+    * *"You leave no room for a lower-level language below C++*, except for Assembly code, and if you manage to write on a lower-level language than C++, then that language should be the **main** systems-programming language of choice.
 
 * C++ directly supports **four** programming styles:
     * Procedural Programming
         - "Programming focused on <ins>processing and the design of suitable data structures</ins>"
     
     * Data Abstraction
-        - "Programming focused on the <ins>design of interfaces,</ins> hiding implementation details *in general* and representations *in partiuclar*"
-    * Object-oritented Programming
-        * "Programming focused on the <ins>design, implementation, and use of class hierarchies.</ins> -- Class hierarchies provide a <ins>run-time polymorphism and encapsulation</ins>"
-    
-    * Generic Programming
-        * "Programming focued on the <ins>design, implementation and use of general algorithms.</ins>"
+        - "Programming focused on the design of interfaces, meaning hiding implementation details *in general* and representations *in partiuclar*"
 
-* C++ Programming (as well as other languages) express their ideals of programming well by:
-    1. Representing ideas directly in code
-    2. Representing relationships among ideas directly in code (e.g hierachical, parametric, and ownership relationships)
-    3. Representing independent ideas independently in code.
-    4. Keep simple things simple (without making complex things *impossible*)
-    5. Prefer statically type-checked solutions (when applicable)
-    6. Keeping information local (e.g avoid global variables, minimize the use of pointers)
-    7. Don't overabstract (i.e don't generalize, introduce class hierarchies, or parameterize beyond obvious needs and experience)
+   * Object-Oritented Programming
+        - "Programming focused on the <ins>design, implementation, and use of class hierarchies.</ins> Moreover, class hierarchies provide a <ins>run-time polymorphism and encapsulation</ins>"
 
-* Book Suggestions for C++ Programmers
-    1. Use constructors to establish invariants
-    2. Use constructor/destructor pairs to simplify resource management
-    3. Avoid "naked" *new* and *delete*
-    4. Use containers and algorithms rather than built-in arrays and ad hoc code
-    5. Prefer standard-library facilities to locally developed code
-    6. Use exceptions, rather than error codes, to report errors athat cannot be handled locally
-    7. Use semantics to avoid copying large projects
-    8. USe *unique_ptr* to reference objects of polymorphic type
-    9. Use *shared_ptr* to reference shared objects without a single owner that is responsible for their destruction.
-    10. Use templates to maintain static type safety (eliminate casts) and avoid unnecessary use of class hierarchies.
+   * Generic Programming
+        - "Programming focued on the <ins>design, implementation and use of general algorithms.</ins>"
 
 
 ## Advice
@@ -120,9 +97,8 @@
 2. Aim for your code to be efficient and clean
 3. Don't overabstract
 4. Represent relationships among ideas directly in code (E.g parameterizatoin or a class hierarchy)
-5. Focus on efficient and clean abstracctions, possibly represented as libaries
+5. Focus on efficient and clean abstractions, possibly represented as libaries
 6. Represent independent ideas *separately* in code (E.g avoid mutual dependencies among classes)
-7. C++ isn't just Object-Oriented nor Generic Programming
 8. Prefer solutions that can be statically checked
 9. Make resources explicit (represent them as class obejcts)
 10. Express simple ideas simply
